@@ -1,0 +1,239 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>WhySoJames</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/icon1.png"/>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script>
+			function sendEmail() {
+				var fullName = document.getElementById("fullName").value;
+				var email = document.getElementById("email").value;
+				var subject = document.getElementById("subject").value;
+				var message = document.getElementById("message").value;
+	
+				window.location.href = `mailto:asuncijd@gmail.com?subject=${subject}&body=Name: ${fullName}%0AEmail: ${email}%0AMessage: ${message}`;
+			}
+		</script>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+		</script>
+
+			<!-- Header -->
+				<header id="header">
+					<h1 id="logo"><a href="index.html">James' Page</a></h1>
+					<nav id="nav">
+						<ul>
+							<li><a href="#banner" class="scrolly">Home</a></li>
+							<li><a href="#one" class="scrolly">About Me</a></li>
+							<li><a href="#two" class="scrolly">Education</a></li>
+							<li>
+								<a href="#four" class="scrolly">Expierience</a>
+								<ul>
+									<li><a href="no-sidebar.html">Details</a></li>
+									<!--
+									<li><a href="left-sidebar.html">Left Sidebar</a></li>
+									<li><a href="right-sidebar.html">Right Sidebar</a></li>
+									<li><a href="no-sidebar.html">No Sidebar</a></li>
+									<li>
+										<a href="#">Submenu</a>
+										<ul>
+											<li><a href="#">Option 1</a></li>
+											<li><a href="#">Option 2</a></li>
+											<li><a href="#">Option 3</a></li>
+											<li><a href="#">Option 4</a></li>
+										</ul> 
+									</li>
+									-->
+								</ul>
+							</li>
+							<li><a href="#five">Contact Me</a></li>
+						</ul>
+					</nav>
+				</header>
+
+			<!-- Banner -->
+				<section id="banner">
+					<div class="content">
+						<header>	
+							<h2>James Asuncion</h2>
+							<p>Site Reliability Engineer &nbsp;&bull;&nbsp; Husband &nbsp;&bull;&nbsp; Geek</p>
+							<p>Welcome to my web page.<br />
+							My little corner of the internet</p>
+							<nav>
+								<ul class="icons">
+									<a href="https://www.facebook.com/WhysoJames" target="_blank" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a> &verbar;
+									<a href="https://www.linkedin.com/in/jamesa03/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a> &verbar;
+									<a href="https://www.instagram.com/whysojames/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a> &verbar;
+									<!--<a href="#" class="icon brands fa-github"><span class="label">Github</span></a> &verbar;-->
+									<a href="mailto:asuncijd@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a>
+								</ul>
+							</nav>
+						</header>
+						<span class="image"><img src="images/selfportrait01.jpg" alt="" /></span>
+					</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- One -->
+				<section id="one" class="spotlight style8 bottom">
+					<span class="image fit main"><img src="images/background02.png" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="col-12 col-12-medium">
+									<header>
+										<h2>Introduction</h2>
+										<p>
+											Hello! I'm James, if you've found yourself here then that must mean you have found some interest in me. Here is a little bit about me: <br>
+											I am a 2018 graduate from the Bachelor of Technology program at McMaster University. My professional carreer in tech encompases positions such as site reliability engineer (SRE), associate computer 
+											application support co-op, and IT service desk / IT infrastructure co-op student. My most recent expierience is working as a SRE and I'm currently looking for work opportunities in the technology field.<br>
+											Apart from my professional career, I enjoy my leisure time playing drums, watching movies, 
+											playing Magic the Gathering, playing Dungeons and Dragons, doing beginner chalesthenics, 
+											building miniature terrains and dioramas, resin 3D printing, builing PCs, and playing video games.
+										</p>
+									</header>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Two -->
+				<section id="two" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/Mac2.png" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Educattion</h2>
+							<p>Bachelor of Technology <br>Automation Engineering Technology <br>Co-op</p>
+						</header>
+						<p>At McMaster I've completed a 4 year program with a 1 year mandetory Co-op. This degree mainly focused on industrial manufacturing technology, robotics control, and business management. After completing the four year program I obtained:</p>
+						<ul>
+							<li>Bachelors or Technology: Automation Engineering Technology Co-op</li>
+							<li>Advanced Diploma: Chemical Engineering Technology - Process Automation</li>
+							<li>Certificate - Business Management</li>
+						</ul>
+						<ul class="actions">
+							<li><a href="https://www.eng.mcmaster.ca/programs/undergraduate-programs-degrees/bachelor-technology-btech/" target="_blank" class="button">Learn More</a></li>
+						</ul>
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+
+				<!-- Three
+				<section id="three" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Interdum felis blandit praesent sed augue</h2>
+							<p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
+						</header>
+						<p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
+						<ul class="actions">
+							<li><a href="#" class="button">Learn More</a></li>
+						</ul>
+					</div>
+					<a href="#four" class="goto-next scrolly">Next</a>
+				</section>
+			 -->
+			<!-- Four -->
+				<section id="four" class="wrapper style1 special fade-down">
+					<div class="container">
+						<header class="major">
+							<h2>Expierience</h2>
+						</header>
+						<div class="box alt">
+							<div class="row gtr-uniform">
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span ><img src="images/MSicon.jpg" style="width: 150px; height: 150px;"> </span>
+									<h3>Site Reliability Engineer</h3>
+									
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span ><img src="images/fdmicon.png" style="width: 150px; height: 150px;"></span>
+									<h3>Business Analyst Consultant</h3>
+									
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span ><img src="images/bellicon.png" style="width: 150px; height: 150px;"> </span>
+									<h3>Associate Computer Application Support Intern</h3>
+									
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span></span>
+									<h3></h3>
+									<p></p>
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span ><img src="images/bmicon.jpg" style="width: 150px; height: 150px;"></span>
+									<h3>IT Service Desk Technichian Intern</h3>
+									
+								</section>
+								<section class="col-4 col-6-medium col-12-xsmall">
+									<span></span>
+									<h3></h3>
+									<p></p>
+								</section>
+							</div>
+						</div>
+						<footer class="major">
+							<ul class="actions special">
+								<li><a href="no-sidebar.html" class="button">More Info</a></li>
+							</ul>
+						</footer>
+					</div>
+					<a href="#five" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Five -->
+				<section id="five" class="wrapper style2 fade">
+					<div class="container">
+						<header>
+							<h2>Contact Me</h2>
+							<p>If you'd like to learn more about me send me an emial, I'd love to hear from you!</p>
+						</header>
+						<form onsubmit="sendEmail(); return false;">
+							<label for="fullName">Full Name:</label>
+							<input type="text" id="fullName" name="fullName" placeholder="John/Jane Doe" required><br>
+							<label for="email">Email:</label>
+							<input type="email" id="email" name="email" placeholder="JohnJaneDoe@gmail.com" required><br>
+							<label for="subject">Subject:</label>
+							<input type="text" id="subject" name="subject" placeholder="I've got a job perfect for you!" required><br>
+							<label for="message">Message:</label>
+							<textarea id="message" name="message" placeholder="I have a potential openning for you! Let me know if you are interested! " required></textarea><br>
+							<input type="submit" value="Send Message">
+						</form>
+					</div>
+					<a href="#footer" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.facebook.com/WhysoJames" target="_blank" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.linkedin.com/in/jamesa03/" target="_blank" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://www.instagram.com/whysojames/" target="_blank" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+						<!--<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li> &verbar;-->
+						<li><a href="mailto:asuncijd@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+
+					</ul>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
